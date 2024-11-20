@@ -109,7 +109,7 @@ nvidia-smi
 3. **安裝深度學習框架**
    ```bash
    # PyTorch
-   conda install pytorch torchvision torchaudio cudatoolkit -c pytorch
+   conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
 
    # 或 TensorFlow
    conda install tensorflow-gpu
